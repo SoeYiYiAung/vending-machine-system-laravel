@@ -8,6 +8,8 @@ This project demonstrates product management, user authentication, and purchase 
 - Purchase flow for users
 - Transaction history
 - Role-based access (Admin / User)
+- Web UI with Blade templates (full browser experience)
+- RESTful API with JWT authentication for external frontend/mobile apps
 
 # Requirements
 - PHP 8.2+
@@ -21,7 +23,7 @@ This project demonstrates product management, user authentication, and purchase 
 - Generate app key: php artisan key:generate
 - Set up DB in .env (vending_machine)
 - Run migrations: php artisan migrate
-- Seed test data if you provide a seeder: php artisan db:seed
+- Seed test data : php artisan db:seed
 - Start server: php artisan serve
 
 # Clone the repository
